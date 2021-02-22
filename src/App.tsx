@@ -1,7 +1,10 @@
+import ExperienceBar from "./components/ExperienceBar";
+import "./styles/global.css";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Certooo</h1>
+    <div className="container">
+      <ExperienceBar />
     </div>
   );
 }
